@@ -1,0 +1,28 @@
+{
+    "Actor": {
+        "abilities-str-label": { "path": "data.abilities.str.label", "converter": "actorLabels" },
+        "abilities-dex-label": { "path": "data.abilities.dex.label", "converter": "actorLabels" },
+        "abilities-con-label": { "path": "data.abilities.con.label", "converter": "actorLabels" },
+        "abilities-int-label": { "path": "data.abilities.int.label", "converter": "actorLabels" },
+        "abilities-wis-label": { "path": "data.abilities.wis.label", "converter": "actorLabels" },
+        "abilities-cha-label": { "path": "data.abilities.cha.label", "converter": "actorLabels" },
+        "attributea-ac-label": { "path": "data.attributes.ac.label", "converter": "actorLabels" },
+        "attributes-pd-label": { "path": "data.attributes.pd.label", "converter": "actorLabels" },
+        "attributes-md-label": { "path": "data.attributes.md.label", "converter": "actorLabels" },
+        "attributes-hp-label": { "path": "data.attributes.hp.label", "converter": "actorLabels" },
+        "attributes-recoveries-label": { "path": "data.attributes.recoveries.label", "converter": "actorLabels" },
+        "attributes-init-label": { "path": "data.attributes.init.label", "converter": "actorLabels" },
+        "attributes-level-label": { "path": "data.attributes.level.label", "converter": "actorLabels" },
+        "details-alignment-label": { "path": "data.details.alignment.label", "converter": "actorLabels" },
+        "details-biography-label": { "path": "data.details.biography.label", "converter": "actorLabels" },
+        "details-class-label": { "path": "data.details.class.label", "converter": "actorLabels" },
+        "details-race-label": { "path": "data.details.race.label", "converter": "actorLabels" },
+        "details-out-label": { "path": "data.details.out.label", "converter": "actorLabels" },
+        "details-role-label": { "path": "data.details.role.label", "converter": "actorLabels" },
+        "details-size-label": { "path": "data.details.size.label", "converter": "actorLabels" },
+        "details-type-label": { "path": "data.details.type.label", "converter": "actorLabels" },
+        "details-resistance-label": { "path": "data.details.resistance.label", "converter": "actorLabels" },
+        "details-vulnerability-label": { "path": "data.details.vulnerability.label", "converter": "actorLabels" },
+        "details-level-label": { "path": "data.details.level.label", "converter": "actorLabels" }
+    }
+}
