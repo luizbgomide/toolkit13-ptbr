@@ -1,0 +1,32 @@
+{
+    "name": "toolkit13-ptbr",
+    "title": "Toolkit13 Portuguese (BR) Translation",
+    "description": "Adiciona o idioma Português (Brasil) para o sistema Toolkit13.",
+    "version": "0.1",
+    "minimumCoreVersion": "0.7.6",
+    "compatibleCoreVersion": "0.7.9",
+    "dependencies": [
+        {
+            "name": "babele",
+            "type": "module",
+            "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+        }
+    ],
+    "author": "luizbgomide",
+    "systems": [
+        "archmage"
+    ],
+    "esmodules": [
+        "babele.js"
+    ],
+    "languages": [
+        {
+            "lang": "pt-br",
+            "name": "Brazilian Portuguese",
+            "path": "pt-br.json"
+        }
+    ],
+    "url": "https://github.com/luizbgomide/toolkit13-ptbr/",
+    "manifest": "https://github.com/luizbgomide/toolkit13-ptbr/raw/main/module/module.json",
+    "download": "https://github.com/luizbgomide/toolkit13-ptbr/raw/main/module/toolkit13-ptbr.zip"
+}
