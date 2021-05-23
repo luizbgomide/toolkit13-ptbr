@@ -1,0 +1,416 @@
+Actor:
+  types:
+    - character
+    - npc
+  templates:
+    standard:
+      abilities:
+        str:
+          label: Strength
+        dex:
+          label: Dexterity
+        con:
+          label: Constitution
+        int:
+          label: Intelligence
+        wis:
+          label: Wisdom
+        cha:
+          label: Charisma
+      attributes:
+        ac:
+          label: Armor Class
+        pd:
+          label: Physical Defense
+        md:
+          label: Mental Defense
+        hp:
+          label: Hit Points
+        recoveries:
+          label: Recoveries
+        init:
+          label: Initiative Modifier
+        level:
+          label: Level
+      details:
+        alignment:
+          value: #translatable#
+          label: Alignment
+        biography:
+          value: #translatable#
+          label: Biography
+        class:
+          value: #translatable#
+          label: Class
+        race:
+          value: #translatable#
+          label: Race
+        out:
+          label: One Unique Thing
+          value: #translatable#
+          value: ''
+      backgrounds:
+        bg1:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg2:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg3:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg4:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg5:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg6:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg7:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+        bg8:
+          name:
+            value: #translatable#
+            value: ''
+          bonus:
+          isActive:
+      icons:
+        i1:
+          name:
+            value: #translatable#
+            value: ''
+        i2:
+          name:
+            value: #translatable#
+            value: ''
+        i3:
+          name:
+            value: #translatable#
+            value: ''
+        i4:
+          name:
+            value: #translatable#
+            value: ''
+        i5:
+          name:
+            value: #translatable#
+            value: ''
+  character:
+    templates:
+      - standard
+    attributes:
+      weapon:
+        melee:
+          label: Melee weapon dice
+        ranged:
+          label: Ranged weapon dice
+        jab:
+          type: String
+          label: JAB dice
+          abil: 'dex/str'
+        punch:
+          type: String
+          label: PUNCH dice
+          abil: 'dex/str'
+        kick:
+          type: String
+          label: KICK dice
+          abil: 'dex/str'
+  npc:
+    templates:
+      - standard
+    details:
+      role:
+        value: ''
+        type: String
+        label: Role
+      size:
+        value: Normal
+        type: String
+        label: Size
+      type:
+        value: ''
+        type: String
+        label: Type
+      resistance:
+        type: String
+        label: Resistance
+      vulnerability:
+        type: String
+        label: Vulnerability
+Item:
+  types:
+    - power
+    - trait
+    - action
+    - nastierSpecial
+    - tool
+    - loot
+    - equipment
+  templates:
+    standard:
+      name:
+        type: String
+        label: Name
+      description:
+        type: String
+        label: Description
+    spendable:
+      quantity:
+        label: Quantity
+      price:
+        label: Price
+  power:
+    templates:
+      - standard
+    group:
+      type: String
+      label: Group
+      value: ''
+    powerSource:
+      type: String
+      label: Power Source
+      value: ''
+    powerSourceName:
+      type: String
+      label: Power Source Name
+      value: ''
+    powerType:
+      type: String
+      label: Power Type
+      value: ''
+    powerUsage:
+      type: String
+      label: Power Usage
+      value: ''
+    powerLevel:
+      label: Level
+      value: ''
+    actionType:
+      type: String
+      label: Action
+      value: ''
+    range:
+      type: String
+      label: Range
+      value: ''
+    trigger:
+      type: String
+      label: Trigger
+      value: ''
+    target:
+      type: String
+      label: Target
+      value: ''
+    always:
+      type: String
+      label: Always
+      value: ''
+    attack:
+      type: String
+      label: Attack
+      value: ''
+    hit:
+      type: String
+      label: Hit
+      value: ''
+    hitEven:
+      type: String
+      label: Natural Even Hit
+      value: ''
+    hitOdd:
+      type: String
+      label: Natural Odd Hit
+      value: ''
+    crit:
+      type: String
+      label: Crit
+      value: ''
+    miss:
+      type: String
+      label: Miss
+      value: ''
+    missEven:
+      type: String
+      label: Even Miss
+      value: ''
+    missOdd:
+      type: String
+      label: Odd Miss
+      value: ''
+    cost:
+      type: String
+      label: Cost
+      value: ''
+    castBroadEffect:
+      type: String
+      label: Cast for Broad Effect
+      value: ''
+    castPower:
+      type: String
+      label: Cast for Power
+      value: ''
+    sustainedEffect:
+      type: String
+      label: Opening and Sustained Effect
+      value: ''
+    finalVerse:
+      type: String
+      label: Final Verse
+      value: ''
+    special:
+      type: String
+      label: Special
+      value: ''
+    effect:
+      type: String
+      label: Effect
+      value: ''
+    spellLevel3:
+      type: String
+      label: 3rd Level Spell
+      value: ''
+    spellLevel5:
+      type: String
+      label: 5th Level Spell
+      value: ''
+    spellLevel7:
+      type: String
+      label: 7th Level Spell
+      value: ''
+    spellLevel9:
+      type: String
+      label: 9th Level Spell
+      value: ''
+    spellChain:
+      type: String
+      label: Chain Spell
+      value: ''
+    breathWeapon:
+      type: String
+      label: Breath Weapon
+      value: ''
+    sustainOn:
+      label: Sustain On
+      value: ''
+    recharge:
+      label: Recharge
+    rechargeAttempts:
+      label: Number of Recharges Attempted
+    quantity:
+      label: Uses
+    maxQuantity:
+      label: Max Uses
+    feats:
+      adventurer:
+        description:
+          type: String
+          label: Adventurer Feat
+        isActive:
+          label: Active
+      champion:
+        description:
+          type: String
+          label: Champion Feat
+        isActive:
+          label: Active
+      epic:
+        description:
+          type: String
+          label: Epic Feat
+        isActive:
+          label: Active
+  trait:
+    templates:
+      - standard
+    group:
+      type: String
+      label: Group
+      value: ''
+  action:
+    templates:
+      - standard
+    group:
+      type: String
+      label: Group
+      value: ''
+    attack:
+      type: String
+      label: Attack Roll
+    hit:
+      type: String
+      label: Hit
+    hit1:
+      type: String
+      label: Hit
+    hit2:
+      type: String
+      label: Hit
+    hit3:
+      type: String
+      label: Hit
+    hit4:
+      type: String
+      label: Hit
+    hit5:
+      type: String
+      label: Hit
+    miss:
+      type: String
+      label: Miss
+  nastierSpecial:
+    templates:
+      - standard
+    group:
+      type: String
+      label: Group
+      value: ''
+  tool:
+    templates:
+      - standard
+      - spendable
+  loot:
+    templates:
+      - standard
+      - spendable
+  equipment:
+    templates:
+      - standard
+    properties: {}
+    attributes:
+      attack:
+        melee:
+        ranged:
+        divine:
+        arcane:
+      ac:
+      md:
+      pd:
+      hp:
+      recoveries:
+      save:
+      disengage:
